@@ -1,4 +1,4 @@
-Attribute VB_Name = "OL_WeLo_Anlagen_Speichern"
+Attribute VB_Name = "OL_Anlagen_Speichern"
 Option Explicit
 '_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 '_/                                                                                                                 '_/
