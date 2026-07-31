@@ -32,12 +32,12 @@ For Each obj In coll
         Msg = Msg & Atts(i).FileName & vbCrLf
     Next
     'Delete confirmation by user required. Otherwise, end sub.
-    If MsgBox(Msg, vbYesNo Or vbQuestion, "Delete?") = vbYes Then
+    ' If MsgBox(Msg, vbYesNo Or vbQuestion, "Delete?") = vbYes Then
         For i = Atts.Count To 1 Step -1
             Atts.Remove i
         Next
             obj.Save
-    End If
+    ' End If
 Next
 
 End Sub
