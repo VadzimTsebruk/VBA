@@ -37,7 +37,7 @@ Sub OpenWorkFreeTemplateUsingSelectedTime()
         If datStart <> datNull And datEnd <> datNull Then
             oAppt.Start = datStart
             oAppt.End = datEnd
-            oAppt.ReminderSet = True
+            oAppt.ReminderSet = False
         End If
         oAppt.Display
     End If
@@ -121,7 +121,7 @@ Sub OpenPrivatNextPriorityOOOTemplateUsingSelectedTime()
         If datStart <> datNull And datEnd <> datNull Then
             oAppt.Start = datStart
             oAppt.End = datEnd
-            oAppt.ReminderSet = True
+            oAppt.ReminderSet = False
         End If
         oAppt.Display
     End If
@@ -208,7 +208,7 @@ Sub OpenPrivatOoOTemplateUsingSelectedTime()
         If datStart <> datNull And datEnd <> datNull Then
             oAppt.Start = datStart
             oAppt.End = datEnd
-            oAppt.ReminderSet = True
+            oAppt.ReminderSet = False
             oAppt.Categories = Category
             oAppt.Sensitivity = olNormal
         End If
@@ -251,7 +251,7 @@ Sub OpenAllDayEventFreeTemplateUsingSelectedTime()
         If datStart <> datNull And datEnd <> datNull Then
             oAppt.Start = datStart
             oAppt.End = datEnd
-            oAppt.ReminderSet = True
+            oAppt.ReminderSet = False
         End If
         oAppt.Display
     End If
@@ -292,7 +292,7 @@ Sub OpenAllDayPrivatImportantTemplateUsingSelectedTime()
         If datStart <> datNull And datEnd <> datNull Then
             oAppt.Start = datStart
             oAppt.End = datEnd
-            oAppt.ReminderSet = True
+            oAppt.ReminderSet = False
         End If
         oAppt.Display
     End If

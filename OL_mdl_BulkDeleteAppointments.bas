@@ -1,4 +1,5 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "OL_mdl_BulkDeleteAppointments"
+Option Explicit
 '' Copyright (c) 2014-2022 by Joachim Schlosser with major improvements by Klaus Jandl
 ' https://www.schlosser.info
 '
