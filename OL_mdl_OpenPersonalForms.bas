@@ -38,6 +38,7 @@ Sub OpenWorkFreeTemplateUsingSelectedTime()
             oAppt.Start = datStart
             oAppt.End = datEnd
             oAppt.ReminderSet = False
+            oAppt.Sensitivity = olNormal 'olNormal --> Not private. If not set --> Will be private
         End If
         oAppt.Display
     End If
@@ -79,7 +80,7 @@ Sub OpenWorkTentativeTemplateUsingSelectedTime()
             oAppt.Start = datStart
             oAppt.End = datEnd
             oAppt.ReminderSet = False
-            oAppt.Sensitivity = olNormal
+            oAppt.Sensitivity = olNormal 'olNormal --> Not private. If not set --> Will be private
             oAppt.BusyStatus = olTentative
         End If
         oAppt.Display
@@ -122,6 +123,7 @@ Sub OpenPrivatNextPriorityOOOTemplateUsingSelectedTime()
             oAppt.Start = datStart
             oAppt.End = datEnd
             oAppt.ReminderSet = False
+            oAppt.Sensitivity = olNormal 'olNormal --> Not private. If not set --> Will be private
         End If
         oAppt.Display
     End If
@@ -163,6 +165,7 @@ Sub OpenPrivateFreeTemplateUsingSelectedTime()
             oAppt.Start = datStart
             oAppt.End = datEnd
             oAppt.ReminderSet = False
+            oAppt.Sensitivity = olNormal 'olNormal --> Not private. If not set --> Will be private
         End If
         oAppt.Display
     End If
@@ -210,7 +213,7 @@ Sub OpenPrivatOoOTemplateUsingSelectedTime()
             oAppt.End = datEnd
             oAppt.ReminderSet = False
             oAppt.Categories = Category
-            oAppt.Sensitivity = olNormal
+            oAppt.Sensitivity = olNormal 'olNormal --> Not private. If not set --> Will be private
         End If
         oAppt.Display
     End If
@@ -252,6 +255,7 @@ Sub OpenAllDayEventFreeTemplateUsingSelectedTime()
             oAppt.Start = datStart
             oAppt.End = datEnd
             oAppt.ReminderSet = False
+            oAppt.Sensitivity = olNormal 'olNormal --> Not private. If not set --> Will be private
         End If
         oAppt.Display
     End If
@@ -293,6 +297,7 @@ Sub OpenAllDayPrivatImportantTemplateUsingSelectedTime()
             oAppt.Start = datStart
             oAppt.End = datEnd
             oAppt.ReminderSet = False
+            oAppt.Sensitivity = olNormal 'olNormal --> Not private. If not set --> Will be private
         End If
         oAppt.Display
     End If
@@ -334,6 +339,7 @@ Sub Open_Learning_Private_Tentative_Template_Using_Selected_Time()
             oAppt.Start = datStart
             oAppt.End = datEnd
             oAppt.ReminderSet = False
+            oAppt.Sensitivity = olNormal 'olNormal --> Not private. If not set --> Will be private
         End If
         oAppt.Display
     End If
