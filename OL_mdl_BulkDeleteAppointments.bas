@@ -66,7 +66,7 @@ Public Sub BulkDeleteAppointments()
         ' Show found entries, get confirmation string
             cancelMsg = InputBox(prompt:="Selected Date Range: " & datRange.startDate & " - " & datRange.endDate & "." & Chr$(13) & Chr$(13) & "Number of found Items: " & itemCount _
             & Chr$(13) & Chr$(13) & "Enter your cancel message below please. Check the info above, there will be no further confirmation.", _
-                  Title:="ENTER YOUR MESSAGE", Default:="Vacation.")
+                  Title:="ENTER YOUR MESSAGE", Default:="Out of office.")
             If (cancelMsg <> "") Then
                 For Each oAppt In itemsToDelete
                     DeleteItemWithDefaultMessage oAppt, cancelMsg
